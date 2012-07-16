@@ -12,10 +12,10 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: shared_expenses_development
+  database: db_shared_expenses
   pool: 5
   username: root
-  password:
+  password: mindfire
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -25,18 +25,18 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: shared_expenses_test
+  database: db_shared_expenses
   pool: 5
   username: root
-  password:
+  password: mindfire
   socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: shared_expenses_production
+  database: db_shared_expenses
   pool: 5
   username: root
-  password:
+  password: mindfire
   socket: /var/run/mysqld/mysqld.sock
