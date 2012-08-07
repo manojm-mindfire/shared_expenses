@@ -354,8 +354,10 @@ hr {
 }
 .flash .message p {
   margin: 8px;
+  text-align: left;
+  padding-left: 22px;
 }
-.flash .error, .flash .error-list {
+.flash .error, .flash .error-list, .flash .alert {
   border: 1px solid #993624;
   background: #cc4831 url("images/messages/error.png") no-repeat 10px center;
 }

@@ -25,7 +25,7 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: db_shared_expenses
+  database: db_shared_expenses_test
   pool: 5
   username: root
   password: mindfire

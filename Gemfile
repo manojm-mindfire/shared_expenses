@@ -39,11 +39,17 @@ gem 'devise'
 gem 'kaminari'
 
 group :development, :test do
-  gem 'capybara'
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'haml-rails'
   gem 'hpricot'
   gem 'ruby_parser'
   gem 'web-app-theme', '~> 0.8.0'
 end
 
+group :test do
+  gem 'faker'
+  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'launchy'
+end
