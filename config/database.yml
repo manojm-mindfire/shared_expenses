@@ -14,8 +14,8 @@ development:
   reconnect: false
   database: db_shared_expenses
   pool: 5
-  username: root
-  password: mindfire
+  username: bcs
+  password: mindfire$
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -27,8 +27,8 @@ test:
   reconnect: false
   database: db_shared_expenses_test
   pool: 5
-  username: root
-  password: mindfire
+  username: bcs
+  password: mindfire$
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: db_shared_expenses
   pool: 5
-  username: root
-  password: mindfire
+  username: bcs
+  password: mindfire$
   socket: /var/run/mysqld/mysqld.sock
