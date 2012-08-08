@@ -1,0 +1,23 @@
+purchases-table
+	cateory_id
+	balance_sheet_id
+	title
+	description
+	
+users_purchases_table
+	user_id
+	purchase_id
+	paid_amount
+	shared_amount
+	
+categories
+	title
+
+balance_sheets_table
+	title
+	description
+	
+users_balance_sheets_table
+	user_id
+	balance_sheet_id
+
